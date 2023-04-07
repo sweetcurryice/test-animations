@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color:#c4e5ff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.title1{
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+    top: 40vh;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0,0.3);
+}
+.button1{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 33, 111);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0,0.3);
+    box-shadow: 1px 7px 2px rgb(180, 28, 81);
+    cursor: pointer;
+
+}
+.button1:hover{
+    background-color: rgb(227, 39, 104);
+    box-shadow: 1px 6px 2px rgb(173, 23, 73);
+}
+.buttondiv{
+    position: relative;
+    text-align: center;
+    top: 50vh; 
+}
+.title2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: center;
+    top: 20vh;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0,0.3);
+
+}.title3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: center;
+    top: 18vh;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0,0.3);
+
+}
+
+.cards * {
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2vw;
+    width: 45vh;
+    border-radius: 20px;
+    background-color: rgb(255, 222, 222);
+    aspect-ratio: 2/1 ;
+    box-shadow: 1px 5px 2px rgb(0, 0, 0,0.3);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0,0.3);
+    cursor: pointer; 
+    text-transform: uppercase;
+}
+.card1{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 46%;
+    width: 40vh;
+}
+.card3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 46%;
+    width: 40vh;
+    cursor: pointer;
+}
+
+.card3:hover{
+    background-color:  rgb(255, 216, 216);
+}.card2:hover{
+    background-color:  rgb(255, 216, 216);
+}.card1:hover{
+    background-color:  rgb(255, 216, 216);
+}
+.angry{
+    left: 15%;
+    background-color: rgb(210, 73, 73);
+}.happy{
+    left: 35%;
+    background-color: rgb(73, 157, 200);
+}.sad{
+    left: 55%;
+    background-color: rgb(234, 112, 75);
+}.surprised{
+    left: 75%;
+    background-color: rgb(238, 185, 69);
+}
+  
+  .circle {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    top: 75%;
+    color: white;
+    box-shadow: 1px 5px 2px rgb(0, 0, 0,0.3);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0,0.3);
+    text-transform: uppercase;
+}
+
+  .circle.enlarged {
+    transform: scale(1.2);
+  }
